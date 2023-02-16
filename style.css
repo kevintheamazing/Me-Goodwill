@@ -7,29 +7,33 @@ h1 {
 }
 header {
 
-background-color: pink;
-  color: #ff2424;
+  color: #d67171;
   font-family: monospace;
   text-align:center;
 }
 hr {
   border-width: 1px;
-  border-color: #ff0000;
+  border-color: #ff8585;
   border-style: solid;
 }
 html {
-  background-image: url(https://images.unsplash.com/photo-1619922800069-098b291b8f17?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8cGluayUyMGFlc3RoZXRpY3xlbnwwfHwwfHw%3D&w=1000&q=80);
-  background-size: 1920px;
+  background-image: url(https://thumbs.gfycat.com/FrigidLavishAmazondolphin-size_restricted.gif);
+  background-size: 2000px;
   background-attachment: local, scroll;
+  background-blend-mode: color-dodge;
 }
-p,h3{color: #ff2424;
+p,h3,ul{color: #d67171;
   font-family: monospace;
   text-align:center;
-  text-shadow: 0px 0ch 5px #f86d6d;  
+  text-shadow: 0px 0ch 5px #bf8888;
+  margin: 5px;
     }
 body {
-  border-color: red red red red;
-  border-width: 2px;
-  border-style: solid;
-  margin: 50px 50px 20px 50px;
 }
+section{  border-color: #ff8585;
+  border-width: 5px;
+  border-style: dotted;
+  margin: 50px;
+  padding: 10px;
+  background-color: pink;
+  background-blend-mode: normal;}
